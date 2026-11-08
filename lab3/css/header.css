@@ -1,0 +1,72 @@
+.top-bar {
+    width: 100%;
+    height: 120px;
+    background-color: var(--bg-main);
+    border-bottom: 1px solid #e2e8f0;
+    padding: 24px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header-brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--dark-slate);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-icon {
+    width: 20px;
+    height: 20px;
+    background-color: var(--accent-yellow);
+    border-radius: 4px;
+}
+
+.header-title h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-slate);
+    line-height: 1.2;
+    margin: 0;
+}
+
+.header-subtags {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 4px;
+    display: flex;
+    gap: 12px;
+}
+
+.main-menu ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu a {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.2s, border-bottom 0.2s;
+    padding-bottom: 4px;
+}
+
+.main-menu a:hover,
+.main-menu a.active {
+    color: var(--dark-slate);
+    border-bottom: 2px solid var(--accent-yellow);
+}

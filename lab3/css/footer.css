@@ -1,0 +1,23 @@
+.footer-wrapper {
+    width: 100%;
+    background-color: var(--dark-slate);
+}
+
+.footer-content {
+    max-width: var(--width-site);
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #94a3b8;
+    font-size: 12px;
+    box-sizing: border-box;
+    background-color: var(--dark-slate)
+}
+
+.footer-info {
+    display: flex;
+    gap: 24px;
+}

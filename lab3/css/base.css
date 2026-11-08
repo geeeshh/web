@@ -1,0 +1,28 @@
+:root {
+    --bg-main: #f8f8f6;
+    --bg-card: #ffffff;
+    --dark-slate: #1e262c;
+    --text-main: #2d3748;
+    --text-muted: #718096;
+    --accent-yellow: #f5b82e;
+  
+    --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+  
+    --width-site: 1440px;
+    --width-main: 1000px;
+    --width-sidebar: 440px;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: var(--width-site);
+    margin: 0 auto;
+    background-color: var(--bg-main);
+}
