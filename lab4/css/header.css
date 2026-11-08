@@ -1,0 +1,94 @@
+.top-bar {
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg-main);
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1000;
+}
+
+.header-brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--dark-slate);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-icon {
+    width: 20px;
+    height: 20px;
+    background-color: var(--accent-yellow);
+    border-radius: 4px;
+}
+
+.header-title h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-slate);
+    line-height: 1.2;
+    margin: 0;
+}
+
+.header-subtags {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 4px;
+    display: flex;
+    gap: 12px;
+}
+
+/* Меню для ПК */
+.main-menu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu a {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-decoration: none;
+    padding-bottom: 4px;
+}
+
+.main-menu a:hover,
+.main-menu a.active {
+    color: var(--dark-slate);
+    border-bottom: 2px solid var(--accent-yellow);
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.burger-icon {
+    display: none;
+    font-size: 26px;
+    color: var(--dark-slate);
+    cursor: pointer;
+    user-select: none;
+    line-height: 1;
+}
+
+.burger-icon .icon-open {
+    display: block;
+}
+.burger-icon .icon-close {
+    display: none;
+}
